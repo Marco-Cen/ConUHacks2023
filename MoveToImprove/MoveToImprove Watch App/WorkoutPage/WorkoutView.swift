@@ -11,10 +11,11 @@ import Foundation
 // -- WORKOUT Page --
 struct WorkoutView: View {
     
+    @State private var dateDetails = DateDetails() //For finding total minutes spent
     var selectedOption : String // Store last saved dropdown selected state
     
     var body: some View {
-    
+        
         //Like Columns <col>
         VStack(){
             
@@ -36,9 +37,14 @@ struct WorkoutView: View {
                 
                 // Press to Track Button
                 if selectedOption != "↓ (Select a Category) ↓"{ //TODO: Can be better code practice but under time constraint
+                    
                     NavigationLink(destination: TrackingView(selectedOption: selectedOption)) {
                         Text("Start Tracking →")
                     }.background(.green)
+                        .onAppear{ //START TIMER (Gets current date A to be subtracted from B to get total minutes spent)
+                            dateDetails.startTimer()
+//                            dateDetails.minutesSpent //debugging
+                        }
                 }
             }
         }
