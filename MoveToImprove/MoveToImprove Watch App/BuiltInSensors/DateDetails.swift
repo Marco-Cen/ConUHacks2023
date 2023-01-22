@@ -20,15 +20,18 @@ struct DateDetails {
     
     mutating func startTimer() {
         self.startTime = Date()
+        UserDefaults.standard.set(startTime, forKey: "startTime") //TODO: Acts as persistent storage for now since no database set up (Store value for later)
     }
     mutating func endTimer() {
         self.endTime = Date()
+        UserDefaults.standard.set(endTime, forKey: "endTime") //TODO: Acts as persistent storage for now since no database set up (Store value for later)
     }
     
     // Get 2 current date time. Find difference and get total minutes spent
     var minutesSpent: Int? {
         guard let startTime = startTime, let endTime = endTime else { return nil }
         let minutes = calendar.dateComponents([.minute], from: startTime, to: endTime).minute
+        UserDefaults.standard.set(minutes, forKey: "minutesSpent") //TODO: Acts as persistent storage for now since no database set up (Store value for later)
         return minutes
     }
   

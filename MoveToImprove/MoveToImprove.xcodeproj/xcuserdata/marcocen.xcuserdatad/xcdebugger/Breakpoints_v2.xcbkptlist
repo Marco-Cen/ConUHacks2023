@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "670A5F15-C88C-4D5A-A1AE-7AD28ECFEF17"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25237A05-8AC4-46AD-9DAB-1E21A1F833F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/BuiltInSensors/DateDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "minutesSpent"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59482FA6-5424-476D-9E25-C1D192726111"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/BuiltInSensors/DateDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "minutesSpent"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1272903-A271-46C6-832A-D2D961F1F1FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/BuiltInSensors/DateDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "minutesSpent"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C1272903-A271-46C6-832A-D2D961F1F1FB - 15be6556424bdf72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveToImprove_Watch_App.DateDetails.minutesSpent.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MoveToImprove Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcocen/Desktop/uOttawa/Projects/ConUHacks2023/MoveToImprove/MoveToImprove%20Watch%20App/BuiltInSensors/DateDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "C1272903-A271-46C6-832A-D2D961F1F1FB - 15be6556424bdf72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveToImprove_Watch_App.DateDetails.minutesSpent.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MoveToImprove Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcocen/Desktop/uOttawa/Projects/ConUHacks2023/MoveToImprove/MoveToImprove%20Watch%20App/BuiltInSensors/DateDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "447">
+               </Location>
+               <Location
+                  uuid = "C1272903-A271-46C6-832A-D2D961F1F1FB - 15be6556424bdf72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveToImprove_Watch_App.DateDetails.minutesSpent.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MoveToImprove Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcocen/Desktop/uOttawa/Projects/ConUHacks2023/MoveToImprove/MoveToImprove%20Watch%20App/BuiltInSensors/DateDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "C1272903-A271-46C6-832A-D2D961F1F1FB - 15be6556424bdf72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveToImprove_Watch_App.DateDetails.minutesSpent.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MoveToImprove Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcocen/Desktop/uOttawa/Projects/ConUHacks2023/MoveToImprove/MoveToImprove%20Watch%20App/BuiltInSensors/DateDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1183">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "194D592E-154B-4A69-9A9E-A52D3B96012D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/JournalPage/JournalEntryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C963C177-FFED-4868-B972-506A3E3FA73A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/WorkoutPage/WorkoutView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C206684D-7542-42C9-A944-01261A1B2CE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveToImprove Watch App/JournalPage/JournalEntryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

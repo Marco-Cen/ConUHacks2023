@@ -19,7 +19,6 @@ struct TrackingView: View{
     // For confirmation alert
     @State private var showAlert = false
     @State private var shouldRedirect = false
-//    @State private var dateDetails = DateDetails() //For finding total minutes spent
 
      var selectedOption : String // Store last saved dropdown selected state
     
@@ -27,7 +26,6 @@ struct TrackingView: View{
     var body: some View {
         
 //        startStopTracking.startSensors() //TODO: Doesnt work? Dont fully understand
-//        dateDetails.startTimer()
         
         VStack() {
             
