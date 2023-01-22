@@ -18,9 +18,9 @@ struct GPSLocation: View {
     var body: some View {
         
             VStack {
-                // Other views
+                
             }
-            
+        
             /*
              To get location that was stayed longest:
              - With each time the device's location is updated, add location to array. Get difference of timestamp from curr location VS previous location timestamp; highest time difference is longest location stayed

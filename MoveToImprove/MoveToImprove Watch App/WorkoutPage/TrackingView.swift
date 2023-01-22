@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 /*
- Idle page starting built in sensors of hardware until user confirms the end of the session prompt
+ Idle page starts built in sensors of hardware until user confirms the end of the session prompt (Proof of Concept)
  */
 // -- TRACKING Page [SENSORS] --
 struct TrackingView: View{
@@ -19,7 +19,6 @@ struct TrackingView: View{
     // For confirmation alert
     @State private var showAlert = false
     @State private var shouldRedirect = false
-    
 //    @State private var dateDetails = DateDetails() //For finding total minutes spent
 
      var selectedOption : String // Store last saved dropdown selected state
@@ -27,7 +26,7 @@ struct TrackingView: View{
     
     var body: some View {
         
-//        startStopTracking.startSensors()
+//        startStopTracking.startSensors() //TODO: Doesnt work? Dont fully understand
 //        dateDetails.startTimer()
         
         VStack() {
@@ -44,7 +43,7 @@ struct TrackingView: View{
                 self.showAlert = true
             }) {
                 
-                Text("(Stop Tracking)").foregroundColor(Color.red).font(.system(size: 20))
+                Text("(STOP Tracking)").foregroundColor(Color.red).font(.system(size: 20))
             }.alert(isPresented: $showAlert) {
                 Alert(title: Text("Confirmation").foregroundColor(Color.green), message: Text("Are you sure you're done?")
                       

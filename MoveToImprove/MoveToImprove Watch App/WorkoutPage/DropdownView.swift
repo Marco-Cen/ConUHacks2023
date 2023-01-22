@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-// -- DROPDOWN Menu Carousel Page --
+// -- DROPDOWN Menu Carousel-slot machine like Page --
 struct DropdownView: View{
     
     // Dropdown Variables Initialized (TODO: Dummy Data for now)
@@ -18,7 +18,7 @@ struct DropdownView: View{
     var body: some View {
         NavigationView{
         VStack{
-            //-- Carousel Logic
+
             NavigationLink(destination: WorkoutView(selectedOption: selectedOption)) {
                 
                 // Slot machine type drop down menu
@@ -33,7 +33,7 @@ struct DropdownView: View{
                     Text("Selected:")
                     Text(selectedOption).foregroundColor(Color.green).font(.system(size: 14)) // Green match with dropdown green! Easy on eyes!
                 }
-                
+    
             }
             // .listStyle(.carousel) //Old design
         }
@@ -42,4 +42,3 @@ struct DropdownView: View{
         .navigationBarHidden(true)
     }
 }
-

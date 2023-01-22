@@ -18,7 +18,7 @@ struct WorkoutView: View {
         //Like Columns <col>
         VStack(){
             
-            NavigationLink(destination: ContentView()) {
+            NavigationLink(destination: ContentView()) { //Redirects to another page
                 // Logo
                 Image("MoveToImprove").resizable().aspectRatio(contentMode: .fit).frame(width:185, height: 110)
             }
