@@ -10,26 +10,40 @@ import Foundation
 
 // -- WORKOUT Page --
 struct WorkoutView: View {
+    
+    var selectedOption : String // Store last saved dropdown selected state
+    
     var body: some View {
     
-        VStack() {
-            // Dropdown Category Button
-            NavigationLink(destination: DropdownView()) {
-                Text("↓ (Select category...) ↓")
-                    .font(.system(size: 14))
-                    .multilineTextAlignment(.center) // Centered text
-                    .lineLimit(1) // Only fit text in 1 line
-            }.background(Color.gray).foregroundColor(Color.black)
+        //Like Columns <col>
+        VStack(){
             
-            // Logo
-            Image("Logo").resizable().aspectRatio(contentMode: .fit).frame(width:180, height: 110)
+            NavigationLink(destination: ContentView()) {
+                // Logo
+                Image("MoveToImprove").resizable().aspectRatio(contentMode: .fit).frame(width:185, height: 110)
+            }
             
-            // Press to Track Button
-            NavigationLink(destination: TrackingView()) {
-                Text("Start Tracking →")
-            }.background(Color.green)
-            
+            //Like Rows <row>
+            HStack() {
+                // Dropdown Category Button
+                NavigationLink(destination: DropdownView()) {
+                    Text(selectedOption)
+                        .font(.system(size: 15))
+                        .multilineTextAlignment(.center) // Centered text
+                        .lineLimit(1) // Only fit text in 1 line
+                }.background(self.selectedOption == "↓ (Select a Category) ↓" ? .green : .gray) //TODO: Can be better code practice but under time constraint
+                    .foregroundColor(Color.white)
+                
+                // Press to Track Button
+                if selectedOption != "↓ (Select a Category) ↓"{ //TODO: Can be better code practice but under time constraint
+                    NavigationLink(destination: TrackingView(selectedOption: selectedOption)) {
+                        Text("Start Tracking →")
+                    }.background(.green)
+                }
+            }
         }
-            navigationBarHidden(true)
+        .navigationBarHidden(true)
+        
     }
 }
+

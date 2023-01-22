@@ -17,25 +17,56 @@ import SwiftUI
 //global var startStopTracking: StartStopTracking
 
 struct TrackingView: View{
-        
+    
+    @State private var showAlert = false
+    @State private var shouldRedirect = false
+    
+    var selectedOption : String // Store last saved dropdown selected state
+    
     var body: some View {
         
         VStack() {
             //        startStopTracking.startSensors()
             
             
-            // Selected Category
-            Text("<Selected>").foregroundColor(Color.green)
+            Image("MoveToImprove").resizable().aspectRatio(contentMode: .fit).frame(width:200, height: 100).opacity(0.5)
             
-            // Logo  (Tap on logo to finish tracking confirmation)
-            NavigationLink(destination: FinishTrackingConfirmationView()) {
+            
+            Text("↓ Tracking... ↓").font(.system(size: 20))
+            
+            
+            // Selected Category
+            Text(selectedOption).foregroundColor(Color.green).font(.system(size: 18))
+            
+            
+            // Confirmation upon pressing stop tracking
+            Button(action: {
+                self.showAlert = true
+            }) {
                 
-                Image("Logo").resizable().aspectRatio(contentMode: .fit).frame(width:400, height: 120)
+                Text("(Stop Tracking)").foregroundColor(Color.red).font(.system(size: 20))
+            }.alert(isPresented: $showAlert) {
+                Alert(title: Text("Confirmation").foregroundColor(Color.green), message: Text("Are you sure you're done?")
+                      
+                      , primaryButton: .default(Text("Yes")) {
+                    self.shouldRedirect = true
+                    
+                }, secondaryButton: .cancel(Text("No")) {
+                    self.shouldRedirect = false
+                })
             }
             
-            Text("↑ <<Tracking...>> ↑").foregroundColor(Color.green)
+            // Only redirect if say yes
+            if shouldRedirect {
+                NavigationLink(destination: JournalEntryView(), isActive: $shouldRedirect) {
+                    EmptyView()
+                }
+            }
+            
+    
+            
         }
-        .navigationBarTitle("MoveToImprove").font(.system(size: 12))
+        .navigationBarHidden(true)
     }
-
+    
 }

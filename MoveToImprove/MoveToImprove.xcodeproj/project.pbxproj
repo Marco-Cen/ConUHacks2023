@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C46EB95B297CD870007221C7 /* FinishTrackingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */; };
+		C4158EE7297D1C3900A4AD88 /* DateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4158EE6297D1C3900A4AD88 /* DateDetails.swift */; };
 		C46EB95D297CDAA2007221C7 /* StepsTakenLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */; };
 		C46EB95F297CDDE4007221C7 /* StartStopTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */; };
 		C4784602297C9D3D004B5D91 /* MoveToImprove Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishTrackingConfirmationView.swift; sourceTree = "<group>"; };
+		C4158EE6297D1C3900A4AD88 /* DateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetails.swift; sourceTree = "<group>"; };
 		C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenLogic.swift; sourceTree = "<group>"; };
 		C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopTracking.swift; sourceTree = "<group>"; };
 		C47845FB297C9D3D004B5D91 /* MoveToImprove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveToImprove.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +123,6 @@
 				C478461D297CC449004B5D91 /* WorkoutView.swift */,
 				C478461F297CC4D8004B5D91 /* DropdownView.swift */,
 				C4784622297CC52A004B5D91 /* TrackingView.swift */,
-				C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */,
 			);
 			path = WorkoutPage;
 			sourceTree = "<group>";
@@ -144,6 +143,7 @@
 				C478462E297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift */,
 				C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */,
 				C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */,
+				C4158EE6297D1C3900A4AD88 /* DateDetails.swift */,
 			);
 			path = BuiltInSensors;
 			sourceTree = "<group>";
@@ -246,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4158EE7297D1C3900A4AD88 /* DateDetails.swift in Sources */,
 				C4784626297CC569004B5D91 /* JournalView.swift in Sources */,
 				C4784609297C9D3D004B5D91 /* ContentView.swift in Sources */,
 				C478462F297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift in Sources */,
@@ -254,7 +255,6 @@
 				C46EB95D297CDAA2007221C7 /* StepsTakenLogic.swift in Sources */,
 				C4784629297CC7DB004B5D91 /* GPSLocation.swift in Sources */,
 				C478462D297CC91D004B5D91 /* JournalEntryView.swift in Sources */,
-				C46EB95B297CD870007221C7 /* FinishTrackingConfirmationView.swift in Sources */,
 				C478461E297CC449004B5D91 /* WorkoutView.swift in Sources */,
 				C4784607297C9D3D004B5D91 /* MoveToImproveApp.swift in Sources */,
 				C46EB95F297CDDE4007221C7 /* StartStopTracking.swift in Sources */,
