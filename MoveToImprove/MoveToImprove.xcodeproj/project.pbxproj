@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4158EE7297D1C3900A4AD88 /* DateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4158EE6297D1C3900A4AD88 /* DateDetails.swift */; };
+		C4158EE9297D2BFC00A4AD88 /* DateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4158EE8297D2BFC00A4AD88 /* DateDetails.swift */; };
 		C46EB95D297CDAA2007221C7 /* StepsTakenLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */; };
 		C46EB95F297CDDE4007221C7 /* StartStopTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */; };
 		C4784602297C9D3D004B5D91 /* MoveToImprove Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C4158EE6297D1C3900A4AD88 /* DateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetails.swift; sourceTree = "<group>"; };
+		C4158EE8297D2BFC00A4AD88 /* DateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetails.swift; sourceTree = "<group>"; };
 		C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenLogic.swift; sourceTree = "<group>"; };
 		C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopTracking.swift; sourceTree = "<group>"; };
 		C47845FB297C9D3D004B5D91 /* MoveToImprove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveToImprove.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 				C478462E297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift */,
 				C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */,
 				C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */,
-				C4158EE6297D1C3900A4AD88 /* DateDetails.swift */,
+				C4158EE8297D2BFC00A4AD88 /* DateDetails.swift */,
 			);
 			path = BuiltInSensors;
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4158EE7297D1C3900A4AD88 /* DateDetails.swift in Sources */,
+				C4158EE9297D2BFC00A4AD88 /* DateDetails.swift in Sources */,
 				C4784626297CC569004B5D91 /* JournalView.swift in Sources */,
 				C4784609297C9D3D004B5D91 /* ContentView.swift in Sources */,
 				C478462F297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift in Sources */,

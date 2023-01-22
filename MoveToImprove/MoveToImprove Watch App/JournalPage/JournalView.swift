@@ -11,6 +11,7 @@ import SwiftUI
 // -- JOURNAL Page --
 struct JournalView: View {
     var body: some View {
-        Text("(Soon) All logged journal entries")
+        Text("(Coming Soon")
+        Text("All logged journal entries")
     }
 }

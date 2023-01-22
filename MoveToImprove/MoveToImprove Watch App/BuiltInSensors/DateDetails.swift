@@ -6,15 +6,40 @@
 //
 
 import Foundation
+import SwiftUI
 
-
-class DateDetails{
+struct DateDetails {
     
-//    // Dates
-//    private var currentDate = Date() // Current date
-//    private var calendar = Calendar.current // Current calendar
-//    private var day = calendar.component(.day, from: currentDate) // Current day
-//    private var month = calendar.component(.month, from: currentDate) // Current month
-//    private var year = calendar.component(.year, from: currentDate) // Current year
-//
+    // Get current time
+    let calendar = Calendar.current
+    let currentDate = Date()
+    
+    // Get start-end time in minutes
+    var startTime: Date?
+    var endTime: Date?
+    
+    mutating func startTimer() {
+        self.startTime = Date()
+    }
+    mutating func endTimer() {
+        self.endTime = Date()
+    }
+    
+    // Get 2 current date time. Find difference and get total minutes spent
+    var minutesSpent: Int? {
+        guard let startTime = startTime, let endTime = endTime else { return nil }
+        let minutes = calendar.dateComponents([.minute], from: startTime, to: endTime).minute
+        return minutes
+    }
+  
+    // Get Day, Month, Year
+    var day: Int {
+        return calendar.component(.day, from: currentDate)
+    }
+    var month: Int {
+        return calendar.component(.month, from: currentDate)
+    }
+    var year: Int {
+        return calendar.component(.year, from: currentDate)
+    }
 }
