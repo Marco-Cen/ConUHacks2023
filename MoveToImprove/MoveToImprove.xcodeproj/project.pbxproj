@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46EB95B297CD870007221C7 /* FinishTrackingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */; };
+		C46EB95D297CDAA2007221C7 /* StepsTakenLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */; };
+		C46EB95F297CDDE4007221C7 /* StartStopTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */; };
+		C4784602297C9D3D004B5D91 /* MoveToImprove Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4784607297C9D3D004B5D91 /* MoveToImproveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784606297C9D3D004B5D91 /* MoveToImproveApp.swift */; };
+		C4784609297C9D3D004B5D91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784608297C9D3D004B5D91 /* ContentView.swift */; };
+		C478460B297C9D3F004B5D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C478460A297C9D3F004B5D91 /* Assets.xcassets */; };
+		C478460E297C9D3F004B5D91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C478460D297C9D3F004B5D91 /* Preview Assets.xcassets */; };
+		C478461E297CC449004B5D91 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478461D297CC449004B5D91 /* WorkoutView.swift */; };
+		C4784620297CC4D8004B5D91 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478461F297CC4D8004B5D91 /* DropdownView.swift */; };
+		C4784623297CC52A004B5D91 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784622297CC52A004B5D91 /* TrackingView.swift */; };
+		C4784626297CC569004B5D91 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784625297CC569004B5D91 /* JournalView.swift */; };
+		C4784629297CC7DB004B5D91 /* GPSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784628297CC7DB004B5D91 /* GPSLocation.swift */; };
+		C478462D297CC91D004B5D91 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478462C297CC91D004B5D91 /* JournalEntryView.swift */; };
+		C478462F297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478462E297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4784603297C9D3D004B5D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47845F5297C9D3C004B5D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4784600297C9D3D004B5D91;
+			remoteInfo = "MoveToImprove Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4784614297C9D3F004B5D91 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C4784602297C9D3D004B5D91 /* MoveToImprove Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishTrackingConfirmationView.swift; sourceTree = "<group>"; };
+		C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenLogic.swift; sourceTree = "<group>"; };
+		C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopTracking.swift; sourceTree = "<group>"; };
+		C47845FB297C9D3D004B5D91 /* MoveToImprove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveToImprove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoveToImprove Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4784606297C9D3D004B5D91 /* MoveToImproveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToImproveApp.swift; sourceTree = "<group>"; };
+		C4784608297C9D3D004B5D91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C478460A297C9D3F004B5D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C478460D297C9D3F004B5D91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C478461D297CC449004B5D91 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		C478461F297CC4D8004B5D91 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		C4784622297CC52A004B5D91 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		C4784625297CC569004B5D91 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		C4784628297CC7DB004B5D91 /* GPSLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSLocation.swift; sourceTree = "<group>"; };
+		C478462C297CC91D004B5D91 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		C478462E297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSLocationManagerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47845FE297C9D3D004B5D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47845F4297C9D3C004B5D91 = {
+			isa = PBXGroup;
+			children = (
+				C4784605297C9D3D004B5D91 /* MoveToImprove Watch App */,
+				C47845FC297C9D3D004B5D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47845FC297C9D3D004B5D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47845FB297C9D3D004B5D91 /* MoveToImprove.app */,
+				C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4784605297C9D3D004B5D91 /* MoveToImprove Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C4784608297C9D3D004B5D91 /* ContentView.swift */,
+				C4784621297CC4FD004B5D91 /* WorkoutPage */,
+				C4784624297CC55B004B5D91 /* JournalPage */,
+				C4784627297CC796004B5D91 /* BuiltInSensors */,
+				C4784606297C9D3D004B5D91 /* MoveToImproveApp.swift */,
+				C478460A297C9D3F004B5D91 /* Assets.xcassets */,
+				C478460C297C9D3F004B5D91 /* Preview Content */,
+			);
+			path = "MoveToImprove Watch App";
+			sourceTree = "<group>";
+		};
+		C478460C297C9D3F004B5D91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C478460D297C9D3F004B5D91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4784621297CC4FD004B5D91 /* WorkoutPage */ = {
+			isa = PBXGroup;
+			children = (
+				C478461D297CC449004B5D91 /* WorkoutView.swift */,
+				C478461F297CC4D8004B5D91 /* DropdownView.swift */,
+				C4784622297CC52A004B5D91 /* TrackingView.swift */,
+				C46EB95A297CD870007221C7 /* FinishTrackingConfirmationView.swift */,
+			);
+			path = WorkoutPage;
+			sourceTree = "<group>";
+		};
+		C4784624297CC55B004B5D91 /* JournalPage */ = {
+			isa = PBXGroup;
+			children = (
+				C478462C297CC91D004B5D91 /* JournalEntryView.swift */,
+				C4784625297CC569004B5D91 /* JournalView.swift */,
+			);
+			path = JournalPage;
+			sourceTree = "<group>";
+		};
+		C4784627297CC796004B5D91 /* BuiltInSensors */ = {
+			isa = PBXGroup;
+			children = (
+				C4784628297CC7DB004B5D91 /* GPSLocation.swift */,
+				C478462E297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift */,
+				C46EB95C297CDAA2007221C7 /* StepsTakenLogic.swift */,
+				C46EB95E297CDDE4007221C7 /* StartStopTracking.swift */,
+			);
+			path = BuiltInSensors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47845FA297C9D3D004B5D91 /* MoveToImprove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4784615297C9D3F004B5D91 /* Build configuration list for PBXNativeTarget "MoveToImprove" */;
+			buildPhases = (
+				C47845F9297C9D3D004B5D91 /* Resources */,
+				C4784614297C9D3F004B5D91 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4784604297C9D3D004B5D91 /* PBXTargetDependency */,
+			);
+			name = MoveToImprove;
+			productName = MoveToImprove;
+			productReference = C47845FB297C9D3D004B5D91 /* MoveToImprove.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C4784600297C9D3D004B5D91 /* MoveToImprove Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4784611297C9D3F004B5D91 /* Build configuration list for PBXNativeTarget "MoveToImprove Watch App" */;
+			buildPhases = (
+				C47845FD297C9D3D004B5D91 /* Sources */,
+				C47845FE297C9D3D004B5D91 /* Frameworks */,
+				C47845FF297C9D3D004B5D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoveToImprove Watch App";
+			productName = "MoveToImprove Watch App";
+			productReference = C4784601297C9D3D004B5D91 /* MoveToImprove Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47845F5297C9D3C004B5D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C47845FA297C9D3D004B5D91 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C4784600297C9D3D004B5D91 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C47845F8297C9D3C004B5D91 /* Build configuration list for PBXProject "MoveToImprove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47845F4297C9D3C004B5D91;
+			productRefGroup = C47845FC297C9D3D004B5D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47845FA297C9D3D004B5D91 /* MoveToImprove */,
+				C4784600297C9D3D004B5D91 /* MoveToImprove Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47845F9297C9D3D004B5D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47845FF297C9D3D004B5D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C478460E297C9D3F004B5D91 /* Preview Assets.xcassets in Resources */,
+				C478460B297C9D3F004B5D91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47845FD297C9D3D004B5D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4784626297CC569004B5D91 /* JournalView.swift in Sources */,
+				C4784609297C9D3D004B5D91 /* ContentView.swift in Sources */,
+				C478462F297CCFF5004B5D91 /* GPSLocationManagerDelegate.swift in Sources */,
+				C4784620297CC4D8004B5D91 /* DropdownView.swift in Sources */,
+				C4784623297CC52A004B5D91 /* TrackingView.swift in Sources */,
+				C46EB95D297CDAA2007221C7 /* StepsTakenLogic.swift in Sources */,
+				C4784629297CC7DB004B5D91 /* GPSLocation.swift in Sources */,
+				C478462D297CC91D004B5D91 /* JournalEntryView.swift in Sources */,
+				C46EB95B297CD870007221C7 /* FinishTrackingConfirmationView.swift in Sources */,
+				C478461E297CC449004B5D91 /* WorkoutView.swift in Sources */,
+				C4784607297C9D3D004B5D91 /* MoveToImproveApp.swift in Sources */,
+				C46EB95F297CDDE4007221C7 /* StartStopTracking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4784604297C9D3D004B5D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4784600297C9D3D004B5D91 /* MoveToImprove Watch App */;
+			targetProxy = C4784603297C9D3D004B5D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C478460F297C9D3F004B5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4784610297C9D3F004B5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C4784612297C9D3F004B5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoveToImprove Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MoveToImprove;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marco-cen.MoveToImprove.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		C4784613297C9D3F004B5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoveToImprove Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MoveToImprove;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marco-cen.MoveToImprove.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		C4784616297C9D3F004B5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = MoveToImprove;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marco-cen.MoveToImprove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C4784617297C9D3F004B5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = MoveToImprove;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marco-cen.MoveToImprove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47845F8297C9D3C004B5D91 /* Build configuration list for PBXProject "MoveToImprove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C478460F297C9D3F004B5D91 /* Debug */,
+				C4784610297C9D3F004B5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4784611297C9D3F004B5D91 /* Build configuration list for PBXNativeTarget "MoveToImprove Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4784612297C9D3F004B5D91 /* Debug */,
+				C4784613297C9D3F004B5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4784615297C9D3F004B5D91 /* Build configuration list for PBXNativeTarget "MoveToImprove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4784616297C9D3F004B5D91 /* Debug */,
+				C4784617297C9D3F004B5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47845F5297C9D3C004B5D91 /* Project object */;
+}
