@@ -41,7 +41,7 @@ struct TrackingView: View{
                 self.showAlert = true
             }) {
                 
-                Text("(STOP Tracking)").foregroundColor(Color.red).font(.system(size: 20))
+                Text("(STOP Tracking)").foregroundColor(Color.red).font(.system(size: 20)).bold()
             }.alert(isPresented: $showAlert) {
                 Alert(title: Text("Confirmation").foregroundColor(Color.green), message: Text("Are you sure you're done?")
                       
